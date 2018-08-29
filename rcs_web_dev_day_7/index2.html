@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Click coin</title>
+</head>
+<body>
+  <h1>Total coins: <span id="counter">0</span> </h1>
+
+  <h3>Available for spending: <span id="spending">0</span></h3>
+
+    <button onclick="addCoins()">Click me!</button>
+
+    <h5>Upgrades: <span id="upgrades"></span> </h5>
+
+    <p>1x upgrades: <span id="1x-upgrades">0</span>, current price <span>10</span></p>
+    <p>10x upgrades: <span id="10x-upgrades">0</span>, current price <span>90</span></p>
+
+    <button onclick="buyUpgrade(10)">Buy 1x upgrade.</button> <button onclick="buyUpgrades()">Buy 10x upgrade</button>
+
+    <script src="js/main2.js"> </script>
+</body>
+</html>
