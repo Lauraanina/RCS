@@ -1,0 +1,202 @@
+/* logo */
+header img {
+border-radius: 50px;
+}
+
+/* footer style */
+.footer {
+    position: sticky;
+    border-top: double;
+}
+
+.navbar-nav {
+    position: absolute;
+    top: 5;
+    right: 0;
+}
+
+/* breadcrumbs */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: white;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+}
+
+/* Add a symbol (>) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: '>';
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+/* breadcrumbs end^^ */
+
+/* registration accepted page */
+h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    font-family: fantasy;
+    font-size: 400%;
+}
+
+#reg-cat img {
+   margin: 50px;
+   border-radius: 50px; 
+}
+
+/* registracijas lapa: */
+
+
+input[type=text], input[type=password], select {
+  width: 50%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #eeecec;
+}
+
+/* div.container {
+    margin-left: 30px;
+} 
+ja sis ir, tad viss saturs tuvak ekrana ma*/
+
+#lines1 {
+    border-bottom: double;
+}
+
+/* lines on articles page */
+#lines {
+    border-bottom: double;
+}
+
+#lines2 {
+    border-bottom: double;
+} 
+
+/* articles page */
+.picsY {
+    padding: 5px;
+}
+
+/* Cat memes page */
+.imgX {
+    padding: 5px;
+}
+
+/* landing page */
+.small-article img {
+    max-width: 100%;
+}
+
+.slider img {
+    max-width: 100%; 
+}
+
+.recent {
+margin-left: 30px;
+}
+
+/* CHAT PAGE */
+#chat-area {
+    border: 1.5px solid gray;
+}
+
+div #chat-window {
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+    height: 300px;
+    position: static;
+}
+
+#chat-message {
+ max-width: 100%;
+ margin-bottom: 10px;
+}
+
+#send-message {
+    margin-top: 53px;
+    position: sticky;
+    width: 200px;
+}
+#send-message2 {
+    width: 80px;
+}
+
+div #chat-area {
+padding: 10px;
+}
+
+/* ABOUT US page */
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    /* border: 1px solid #ccc; */
+    border-top: none;
+}
+
+.about-cat, .manager-cat, .career-cat {
+    max-width: 100%;
+    padding: 5px;
+}
+
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
